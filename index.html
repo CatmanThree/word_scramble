@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="./styles/fonts.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+
+    
+
+    <title>Guess the scrambled word</title>
+</head>
+<body>
+    <main>
+        <img src="./images/word-scramblle-logo.svg" alt="">        
+        <div class="scrambled_word">example</div>
+        <div class="line tries_container">
+            <p>Tries (<span id="tries"></span>/5):&nbsp;&nbsp;
+                <span class="dot true"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </p>
+            <p>Mistakes: <span id="mistakes"></span></p>
+        </div>
+        <div class="word_input">
+            <div class="letter_input"></div>
+            <div class="letter_input"></div>
+            <div class="letter_input"></div>
+            <div class="letter_input"></div>
+            <div class="letter_input"></div>
+            <div class="letter_input"></div>
+            <div class="letter_input"></div>
+            <div class="letter_input"></div>
+            <div class="letter_input"></div>
+        </div>
+        <div class="buttons">
+            <button id="random">Random</button>
+            <button id="reset">Reset</button>
+        </div>
+    </main>
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
