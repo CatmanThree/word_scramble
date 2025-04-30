@@ -47,7 +47,7 @@ p {
 body {
     height: 100vh;
     width: 100vw;
-    background: url(../images/bg-guess-the-word.jpg) repeat center center/100%;
+    background: url(../images/bg-guess-the-word.webp) repeat center center/100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,7 +57,7 @@ body {
 @media screen and (width <= 715) {
     body {
         background: none;
-        background: url(../images/bg-guess-the-word-small.jpg) repeat center center/100%;
+        background: url(../images/bg-guess-the-word-small.webp) repeat center center/100%;
     }
 }
 
