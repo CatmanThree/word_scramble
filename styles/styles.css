@@ -54,6 +54,13 @@ body {
     margin: 0px;
 }
 
+@media screen and (width <= 715) {
+    body {
+        background: none;
+        background: url(../images/bg-guess-the-word-small.jpg) repeat center center/100%;
+    }
+}
+
 main {
     max-width: 400px;   
     width: 95%; 
